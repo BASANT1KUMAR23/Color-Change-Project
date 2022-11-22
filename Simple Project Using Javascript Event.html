@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event In Javascript</title>
+    <style>
+        body{
+            text-align: center;
+            font-size: x-large;
+            background-color: green;
+        }
+        button:hover{
+         background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome To My Website Click To Any Button</h1>
+    <button onclick="mytwitter()">Twitter Color</button>
+    <button onclick="myfacebook()">Facebook Color</button>
+    <button onclick="mywhatsapp()">Whatsapp Color</button>
+    <button onclick="myyoutube()">Youtube Color</button>
+    <button onclick="myinstagram()">Instagram Color</button>
+    <button onclick="mygooogle()">Google Color</button>
+
+    <!-- <button onmousedown="mytwitter()">Twitter Color</button>
+    <button onmouseenter="myfacebook()">Facebook Color</button>
+    <button onmouseup="mywhatsapp()">Whatsapp Color</button>
+    <button onmouseout="myyoutube()">Youtube Color</button> -->
+<!-- 
+    <button onkeydown="mytwitter()">Twitter Color</button>
+    <button onkeypress="myfacebook()">Facebook Color</button>
+    <button onkeyup="mywhatsapp()">Whatsapp Color</button>
+    <button onmouseout="myyoutube()">Youtube Color</button> -->
+    <script>
+
+        function mytwitter(){
+            document.body.style.backgroundColor = '#00aced';
+            document.body.style.color = 'white';
+        }
+        function myfacebook(){
+            document.body.style.backgroundColor = '#3b5999';
+            document.body.style.color = 'white';
+        }
+        function mywhatsapp(){
+            document.body.style.backgroundColor = '#25D366';
+            document.body.style.color = 'white';
+        }
+        function myyoutube(){
+            document.body.style.backgroundColor = '#cd201f';
+            document.body.style.color = 'white';
+        }
+        function myinstagram(){
+            document.body.style.backgroundColor = '#8a3ab9';
+            document.body.style.color = 'white';
+        }
+        function mygooogle(){
+            document.body.style.backgroundColor = '#4285F4';
+            document.body.style.color = 'RGB';
+        }
+    
+    </script>
+</body>
+</html>
